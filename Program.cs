@@ -1,4 +1,5 @@
 ﻿using System;
+using Basic_Csharp;
 
 class Program
 {
@@ -29,10 +30,11 @@ class Program
     }
     static void Main(string[] args)
     {
-        Console.Write("Enter a number : ");
+        /*Console.Write("Enter a number : ");
         int n = int.Parse(Console.ReadLine());
 
         Console.WriteLine($"Prime numbers up to {n} are:");
-        PrintPrimes(n);
+        PrintPrimes(n);*/
+        Unique_Char.UniqueChar();
     }
 }

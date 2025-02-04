@@ -7,6 +7,7 @@ class Program
     {
         //Unique_Char.UniqueChar();
         //AreAnagramString.AnagramString();
-        Diff_Bet_Dates.Days_after_diff();
+        //Diff_Bet_Dates.Days_after_diff();
+        PersonAge.GetPersonAge();
     }
 }

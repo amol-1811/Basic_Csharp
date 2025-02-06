@@ -10,25 +10,24 @@
             Console.WriteLine("Enter Your Age:");
             int age = Convert.ToInt32(Console.ReadLine());
 
+            if(age < 0)
+            {
+                Console.WriteLine("Invalid Age");
+                return;
+            }
+
             Console.WriteLine("Enter the time of show between 1 to 24:");
             int time = Convert.ToInt32(Console.ReadLine());
 
             bool isMatinee = time > 12 && time < 18;
 
-            double ticketPrice = CalculateTicket(age, isMatinee);  
-            if(age < 0)
-            {
-                Console.WriteLine("Invalid Age");
-            }
-            else
-            {
-                Console.WriteLine($"The ticket price is {ticketPrice}");
-            }
+            double ticketPrice = CalculateTicket(age, isMatinee);
+            Console.WriteLine($"The ticket price is {ticketPrice} rupees");
         }
         static double CalculateTicket(int age, bool isMatinee)
         {
             double TicketPrice = 0;
-            if(age < 13)
+            if (age < 13)
             {
                 TicketPrice = ChildPrice;
             }

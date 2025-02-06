@@ -10,7 +10,8 @@ class Program
         //Diff_Bet_Dates.Days_after_diff();
         //PersonAge.GetPersonAge();
         //MovieTicket.GetMovieTicket();
-        LoginSystem.Login();
+        //LoginSystem.Login();
+        Calculator.LetsCalculate();
 
     }
 }

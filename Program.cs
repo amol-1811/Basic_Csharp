@@ -14,6 +14,7 @@ class Program
         //Calculator.LetsCalculate();
         //DisplayTimeZone.TimeZoneDisplay();
         //WorkDays.GetWorkDays();
-        DigitSumCalculator.SumOfDigits();
+        //DigitSumCalculator.SumOfDigits();
+        PerfectSquareChecker.CheckPerfectSuare();
     }
 }

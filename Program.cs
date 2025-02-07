@@ -12,7 +12,8 @@ class Program
         //MovieTicket.GetMovieTicket();
         //LoginSystem.Login();
         //Calculator.LetsCalculate();
-        DisplayTimeZone.TimeZoneDisplay();
+        //DisplayTimeZone.TimeZoneDisplay();
+        WorkDays.GetWorkDays();
 
     }
 }

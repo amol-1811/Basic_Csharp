@@ -13,7 +13,7 @@ class Program
         //LoginSystem.Login();
         //Calculator.LetsCalculate();
         //DisplayTimeZone.TimeZoneDisplay();
-        WorkDays.GetWorkDays();
-
+        //WorkDays.GetWorkDays();
+        DigitSumCalculator.SumOfDigits();
     }
 }

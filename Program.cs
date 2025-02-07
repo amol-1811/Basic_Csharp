@@ -11,7 +11,8 @@ class Program
         //PersonAge.GetPersonAge();
         //MovieTicket.GetMovieTicket();
         //LoginSystem.Login();
-        Calculator.LetsCalculate();
+        //Calculator.LetsCalculate();
+        DisplayTimeZone.TimeZoneDisplay();
 
     }
 }
